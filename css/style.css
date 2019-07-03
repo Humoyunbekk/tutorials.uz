@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'tutor';
+    src: url('/font/tutor.ttf');
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+#header{
+	background-image: url('/img/bg_img.jpg');
+	position: relative;
+	top: -5px;
+	height: 65px;
+}
+#htext{
+	font-family: tutor;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	text-transform: uppercase;
+}
+.nav-link{
+	color: black;
+}
+.jumbotron{
+	background-image: url('/img/jumbotron.jpg');
+	color: white;
+}
+.nav-tabs{
+	position: relative;
+	top: 10px;
+	background-color: #ffffff;
+}
+.footer{
+	background-color: #03020d;
+}
+.center-text{
+	text-align: center;
+	margin: -25px 0px 5px 0px;
+	font-size: 30px;
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+	background-image: url('/img/land.jpg');
+}
